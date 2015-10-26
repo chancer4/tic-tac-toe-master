@@ -27,10 +27,10 @@ var compTimer = 0;
 var compWait  = false;
 
 // DOM Variables
-var body    = document.getElementsByTagName('body')[0];
-var message = document.getElementById('ttt_message');
-var board   = document.getElementById('ttt_board');
-var buttons = board.getElementsByTagName('button');
+var body    = $('body');
+var message = $('#' + ttt_message);
+var board   = $('#' + ttt_board);
+var buttons = board.$('button');
 
 // Globals
 var randButton = {};
